@@ -1,0 +1,40 @@
+// Header styles
+
+.container {
+  background-color: #000;
+  opacity: 0.9;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.textWrapper{
+  opacity: 1;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.navBar {
+   display:flex;
+   list-style-type:none;
+   padding:0;
+   justify-content:flex-end;
+   margin-bottom: 0;
+}
+
+.leftSide {
+  margin-right: auto;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.rightSide {
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  &:last-child{
+    padding-right: 27px;
+  }
+}
