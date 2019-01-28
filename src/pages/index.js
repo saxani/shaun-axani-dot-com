@@ -5,10 +5,12 @@ import Hero from "../components/hero";
 import Image from "gatsby-image";
 import globalStyles from '../styles/global.module.scss';
 import indexStyles from '../styles/index.module.scss';
+import SEO from '../components/seo';
 
 export default ({ data }) => {
   return (
     <Layout>
+      <SEO title="Creative Technologist" />
       <Hero />
       <div className ={globalStyles.section}>
         <div className ={indexStyles.container}>
@@ -32,7 +34,8 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark (sort: { fields: [frontmatter___order]}){
+    allMarkdownRemark (sort: { fields: [frontmatter___order]},
+      filter: {fileAbsolutePath: {regex: "\/pages/"}}){
       totalCount
       edges {
         node {
