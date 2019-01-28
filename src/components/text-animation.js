@@ -271,12 +271,12 @@ renderScene = () => {
   this.group.rotation.y += ( this.targetRotation - this.group.rotation.y ) * 0.05;
 
   if(this.group.rotation.y > this.lastMove) {
-    this.lastMove = this.particle.rotation.y;
     this.lastMovePositive = false;
   } else if (this.group.rotation.y < this.lastMove) {
-    this.lastMove = this.particle.rotation.y;
     this.lastMovePositive = true;
   }
+
+  this.lastMove = this.particle.rotation.y;
 
   if (this.lastMovePositive) {
     this.particle.rotation.y += 0.0040;

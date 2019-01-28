@@ -1,5 +1,6 @@
 ---
 title: "Bayberry"
+category: "VR/Ambisonic Audio"
 date: "Fall 2017"
 order: 5
 image: "../images/bayberry-thumbnail@2x.jpg"
@@ -15,4 +16,7 @@ The year is 1987. Before moving out of his childhood home, a guarded, young gend
 
 I did all post-production stitching of the cameras (shot on a GoPro rig), edited the film, did all special effects and compositing. I also wrote the soundtrack for the film, inspired by the eeriness of the Bayberry home, and meant to be heard in a spatial audio environment.
 
-![test](images/quinn-thumbnail@2x-2.png)
+<div class="iframeWrapper">
+<iframe src="https://player.vimeo.com/video/265098391" width="640" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/265098391">Bayberry VR - Teaser</a> from <a href="https://vimeo.com/alexheller">Alex Heller</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</div>

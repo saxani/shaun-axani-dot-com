@@ -1,7 +1,17 @@
 /* Colors #12c2e9 → #c471ed → #f64f59 */
+.caption {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  color: white;
+  font-size: 10px;
+  text-align: right;
+  opacity: 0.6;
 
+}
 
 .container {
+  position: relative;
   width: 100vw;
   height: 400px;
 

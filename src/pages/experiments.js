@@ -18,9 +18,13 @@ export default ({ data }) => {
               <div className = {indexStyles.image}>
                 <Link to={node.fields.slug}>
                   <Image fluid={node.frontmatter.image.childImageSharp.fluid} alt={node.frontmatter.alt} />
-                  <h3 className={indexStyles.title}>
-                    {node.frontmatter.title}{" "}
-                  </h3>
+                    <div className={indexStyles.info}>
+                      <h3 className={indexStyles.title}>
+                        {node.frontmatter.title}{" "}
+                      </h3>
+                      <p className={indexStyles.category}>{node.frontmatter.category}</p>
+                    </div>
+                    <div className ={indexStyles.overlay}></div>
                 </Link>
               </div>
             </div>

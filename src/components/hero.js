@@ -5,6 +5,9 @@ import TextAnimation from './text-animation';
 const Hero = ({ siteTitle }) => (
   <div className ={heroStyles.container}>
     <TextAnimation />
+    <div className ={heroStyles.caption}>
+      Click & drag to interact
+    </div>
   </div>
 );
 
