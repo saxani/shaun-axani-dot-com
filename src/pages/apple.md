@@ -1,5 +1,6 @@
 ---
 title: "Apple"
+category: "Web Development"
 date: "Summer 2018"
 order: 3
 image: "../images/apple-thumbnail@2x.jpg"
@@ -11,4 +12,4 @@ technology: "HTML, CSS, JavaScript, node.js, Sass, Gulp, Handlebars, Greensock, 
 
 Working as a front end developer within Apple Marketing, I've helped to make many different pages on apple.com. I'm not permitted to publicly showcase what I was the developer on, but I encourage you to ask questions.
 
-![test](images/quinn-thumbnail@2x-2.png)
+I was also able to work as a creative technologist prototyping a large scale installation for Apple. You should also ask me about that!

@@ -20,7 +20,7 @@ body {
   text-decoration: none;
 
   &:hover {
-    color: pink;
+    color: #c471ed;
   }
 }
 
@@ -42,6 +42,14 @@ body {
   margin: 50px auto;
   max-width: 1000px;
   padding: 0;
+
+  @media (max-width: 1080px) {
+    max-width: 700px;
+  }
+
+  @media (max-width: 736px) {
+    width: 90%;
+  }
 }
 
 .visuallyHidden {
