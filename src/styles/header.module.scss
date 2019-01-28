@@ -12,6 +12,14 @@
   opacity: 1;
   margin: 0 auto;
   max-width: 1000px;
+
+  @media (max-width: 1080px) {
+    max-width: 700px;
+  }
+
+  @media (max-width: 736px) {
+    width: 90%;
+  }
 }
 
 .navBar {
@@ -21,6 +29,10 @@
    justify-content:flex-end;
    margin-bottom: 0;
    margin-left: 10px;
+
+   @media (max-width: 420px) {
+     display: block;
+   }
 }
 
 .leftSide {
@@ -28,10 +40,23 @@
   font-size: 24px;
   margin-top: 15px;
   margin-bottom: 15px;
+
+  @media (max-width: 420px) {
+    margin: 0 auto 5px;
+    padding-top: 10px;
+  }
 }
 
 .rightSide {
   padding-right: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
+
+  @media (max-width: 420px) {
+    margin: 0 auto;
+
+    &:last-child {
+      padding-bottom: 15px;
+    }
+  }
 }

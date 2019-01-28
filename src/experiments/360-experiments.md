@@ -13,8 +13,12 @@ At grad school in 2015, we spent the semester experimenting with what was a very
 
 I worked with <a href="http://bluepoetics.portfoliobox.me/">Nick Hubbard</a> and Natalia Cabrera to shoot some footage at Chelsea Pier Skatepark in Manhattan. We used the six-camera GoPro rig. We experimented with changing speeds in VR. Time lapse (for sped up footage) does not work in VR, because the stitching software cannot find consistency. Slow motion, however, looked fantastic, as long as we brought the individual footage into Premiere, rendered out in slow motion, and then stitched together.
 
+<div class="iframeWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c3-Mt1NXthI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 I also worked with Natalia Cabrera and <a href="http://michaelweber.squarespace.com/">Michael Weber</a> to explore another possible use case of live-action VR: live concerts. Can we get on the stage and mimic what is feels like to be performing on stage? We worked with well-known New York comedy act <a href="https://www.theskivviesnyc.com/">The Skivies</a> and recorded a holiday show at Joe’s Pub in Manhattan. The result is an incredible immersive experience with mapped audio that feels more like being on stage than in hearing it from the audience. At the time of creating this video, YouTube did not support the ambisonic audio spec (which it does now, but this video was mixed in a different format).
 
+<div class="iframeWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lDKbhQDCQp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
