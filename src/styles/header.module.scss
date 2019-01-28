@@ -20,6 +20,7 @@
    padding:0;
    justify-content:flex-end;
    margin-bottom: 0;
+   margin-left: 10px;
 }
 
 .leftSide {
@@ -30,11 +31,7 @@
 }
 
 .rightSide {
-  padding-right: 15px;
+  padding-right: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
-
-  &:last-child{
-    padding-right: 27px;
-  }
 }

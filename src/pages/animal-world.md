@@ -6,7 +6,7 @@ image: "../images/animalworld-thumbnail@2x.jpg"
 alt: "Kids Sensory Wall"
 role: "Creative technologist"
 tasks: "User centered design, circuit design, hardware design, fabrication, coding"
-technology: "Arduino, Eagle, Othermill, NOT SOLIDWORKS, Laser cutter, capactive touch sensors, neopixels, small voltage motors"
+technology: "Arduino, Eagle, Othermill, Vectorworks, Laser cutter, capactive touch sensors, neopixels, small voltage motors"
 ---
 
 Children with various disabilities crave sensory input, and there are many styles of rooms which assist with this needed stimulation. However, there is room for innovation. Combining elements of assistive technology, custom hardware, and digital fabrication, we set out to make a technology-heavy wall that would allow for a one-of-a-kind experience for children.

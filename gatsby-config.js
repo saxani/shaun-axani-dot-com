@@ -18,6 +18,7 @@ module.exports = {
               maxWidth: 970,
             },
           },
+          "gatsby-remark-copy-linked-files",
         ],
       },
     },
@@ -34,6 +35,13 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/pages/images`,
       }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/experiments/images`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
