@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import Hero from "../components/hero";
 import globalStyles from '../styles/global.module.scss';
 import SEO from '../components/seo';
-import Thumbnails from '../components/thumbnails'
+import Thumbnails from '../components/thumbnails';
 
 export default ({ data }) => {
   return (

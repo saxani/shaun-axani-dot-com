@@ -57,8 +57,19 @@ module.exports = {
         icon: `src/images/sa.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Shaun Axani Portfolio",
+        short_name: "Shaun Axani",
+        start_url: "/",
+        background_color: "#c471ed",
+        theme_color: "#c471ed",
+        display: "standalone",
+        icon: "src/images/sa.png", // This path is relative to the root of the site.
+      },
+    },
+    'gatsby-plugin-offline',
+    `gatsby-plugin-react-helmet`
   ],
 }
