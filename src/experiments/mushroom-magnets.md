@@ -19,10 +19,16 @@ technology: "Adobe Illustrator, Vectorworks"
 Purchased a GIY (grow it yourself) kit from Evocative, let the myco foam grow, put it in the oven to harden and kill it, and then laser cut.
 </p>
 
-![Baking sheet of cooked mushrooms](images/baking-sheet.jpg)
+![Baking sheet of cooked mushrooms](images/baking-sheet-2.jpg)
 
 <p class="post-paragraph">
 Myco foam is great for etching, but it cuts very poorly and burns easily.
 </p>
 
-![Laser etched mushroom on mushroom](images/mushroom-uncut.jpg)
+![Laser etched mushroom on mushroom](images/mushroom-uncut-2.jpg)
+
+<p class="post-paragraph">
+It's also good for surprising <a href="https://beccaricks.space/">friends</a> by etching their faces on it.
+</p>
+
+![Rebecca Ricks holding a piece of mushroom with her face etched on it](images/rebecca-mushroom.jpg)

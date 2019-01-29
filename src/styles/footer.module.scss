@@ -14,3 +14,21 @@
   text-align: center;
   padding-top: 10px
 }
+
+.github {
+  margin-left: 5px;
+
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+
+  &:active {
+    color: white;
+  }
+
+  &:visited {
+    color: white;
+  }
+}
