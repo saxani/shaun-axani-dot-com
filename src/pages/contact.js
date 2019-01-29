@@ -3,7 +3,8 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import globalStyles from '../styles/global.module.scss';
 
-const SecondPage = () => (
+
+const Contact = ({ data }) => (
   <Layout>
     <div className={globalStyles.section}>
       <SEO title="Contact" />
@@ -17,4 +18,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default Contact;
