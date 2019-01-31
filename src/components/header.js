@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import globalStyles from '../styles/global.module.scss';
 import headerStyles from '../styles/header.module.scss';
+import Burger from './burger';
+
 
 const ListLink = props => (
   <li className = {props.class}>
@@ -13,6 +15,7 @@ const ListLink = props => (
 const Header = ({ siteTitle }) => (
   <div className ={headerStyles.container}>
     <div className ={headerStyles.textWrapper}>
+      <Burger />
       <h1 className= {globalStyles.visuallyHidden}>
         {siteTitle}
       </h1>
