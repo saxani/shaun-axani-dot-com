@@ -1,11 +1,11 @@
 // Header styles
-
 .container {
   background-color: #000;
   opacity: 0.9;
   position: sticky;
   top: 0;
   z-index: 10;
+  height: 56px;
 }
 
 .textWrapper{
@@ -16,9 +16,11 @@
   @media (max-width: 1080px) {
     max-width: 700px;
   }
+}
 
-  @media (max-width: 736px) {
-    width: 90%;
+.burgerWrapper {
+  @media (min-width: 737px) {
+    display: none;
   }
 }
 
@@ -29,10 +31,6 @@
    justify-content:flex-end;
    margin-bottom: 0;
    margin-left: 10px;
-
-   @media (max-width: 420px) {
-     display: block;
-   }
 }
 
 .leftSide {
@@ -41,9 +39,8 @@
   margin-top: 15px;
   margin-bottom: 15px;
 
-  @media (max-width: 420px) {
-    margin: 0 auto 5px;
-    padding-top: 10px;
+  @media (max-width: 736px) {
+    margin-left: auto;
   }
 }
 
@@ -52,11 +49,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
 
-  @media (max-width: 420px) {
-    margin: 0 auto;
-
-    &:last-child {
-      padding-bottom: 15px;
-    }
+  @media (max-width: 736px) {
+    display: none;
   }
 }
