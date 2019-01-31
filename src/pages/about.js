@@ -45,6 +45,7 @@ const About = ({ data }) => (
             Python <br />
             Processing <br />
             React <br />
+            Phonegap <br />
             GraphQL <br />
             Sass <br />
             Handlebars <br />
@@ -59,6 +60,7 @@ const About = ({ data }) => (
             Pro Tools <br />
             Ableton <br />
             Autopano <br />
+            Unity <br />
             Eagle <br />
             Vectorworks <br />
           </p>
