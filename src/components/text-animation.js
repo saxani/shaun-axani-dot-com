@@ -69,8 +69,8 @@ class TextAnimation extends Component {
     //GROUP
     this.group = new THREE.Group();
 		this.group.position.y = 100;
-		this.scene.add( this.group );
 
+		this.scene.add( this.group );
 
     //////// STUFF FOR PARTICLES
     this.particle = new THREE.Object3D();
@@ -80,17 +80,12 @@ class TextAnimation extends Component {
       shading: THREE.FlatShading
     });
 
-    for (let i = 0; i < 1000; i++) {
-      let particleGeometry = new THREE.SphereGeometry(Math.random() * 2 + 1, Math.random() * 15 + 5, Math.random() * 15 + 5);
-      let mesh = new THREE.Mesh(particleGeometry, this.particleMaterial);
-      mesh.position.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).normalize();
-      mesh.position.multiplyScalar(90 + (Math.random() * 700));
-      mesh.rotation.set(Math.random() * 2, Math.random() * 2, Math.random() * 2);
-      this.particle.add(mesh);
-    }
-
     //RESIZE
     window.addEventListener( 'resize', this.onWindowResize.bind(this), false );
+
+    setTimeout(function(){
+      this.animateParticles();
+    }.bind(this), 1);
 
     this.start();
   }
@@ -192,6 +187,18 @@ changeTextSize() {
   }
 }
 
+animateParticles() {
+  for (let i = 0; i < 1000; i++) {
+    let particleGeometry = new THREE.SphereGeometry(Math.random() * 2 + 1, Math.random() * 5 + 5, Math.random() * 5 + 5);
+    let mesh = new THREE.Mesh(particleGeometry, this.particleMaterial);
+    mesh.position.set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5).normalize();
+    mesh.position.multiplyScalar(90 + (Math.random() * 700));
+    mesh.rotation.set(Math.random() * 2, Math.random() * 2, Math.random() * 2);
+    this.particle.add(mesh);
+  }
+}
+
+
 onWindowResize() {
 
   if (window.innerWidth > 736) {
@@ -253,14 +260,14 @@ onDocumentTouchMove( event ) {
 }
 
 start = () => {
-    if (!this.frameId) {
-      this.frameId = requestAnimationFrame(this.animate);
-    }
+  if (!this.frameId) {
+    this.frameId = requestAnimationFrame(this.animate);
   }
+}
 
 stop = () => {
-    cancelAnimationFrame(this.frameId);
-  }
+  cancelAnimationFrame(this.frameId);
+}
 
 animate = () => {
    this.renderScene();
