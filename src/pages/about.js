@@ -1,10 +1,10 @@
 import React from 'react';
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import globalStyles from '../styles/global.module.scss';
-import aboutStyles from '../styles/about.module.scss';
+import * as globalStyles from '../styles/global.module.scss';
+import * as aboutStyles from '../styles/about.module.scss';
 
 const About = ({ data }) => (
   <Layout>
@@ -24,7 +24,7 @@ const About = ({ data }) => (
             As I improve my web development techniques, I continue have creative technology projects. Lately I've been exploring what is possible with ambisonic sound, messing around with <a href="../experiments/ar-record-box">AR</a>, and using React for <a href="https://www.shiftcollab.com/programs/wybl/">a mental health project</a> and <a href="https://github.com/saxani/shaun-axani-dot-com">this very site</a>.
           </p>
           <div className= {aboutStyles.imgWrapper}>
-            <Image fluid= {data.file.childImageSharp.fluid} alt="Photo of Shaun Axani" />
+            <GatsbyImage image = {data.file.childImageSharp.gatsbyImageData} alt="Photo of Shaun Axani" />
           </div>
         </div>
         <div class={[aboutStyles.gridItemSmall, aboutStyles.resumeText].join(' ')}>
@@ -86,9 +86,7 @@ export const query = graphql`
   query {
     file(relativePath: { eq: "shaun.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(width: 470) 
       }
     }
   }

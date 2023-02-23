@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import indexStyles from '../styles/index.module.scss';
+import * as indexStyles from '../styles/index.module.scss';
 
 class Thumbnails extends Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class Thumbnails extends Component {
           <div key={node.id} className ={indexStyles.item}>
             <div className = {indexStyles.image}>
               <Link to={node.fields.slug}>
-                <Image fluid={node.frontmatter.image.childImageSharp.fluid} alt={node.frontmatter.alt} />
+                <GatsbyImage image={node.frontmatter.image.childImageSharp.gatsbyImageData} alt={node.frontmatter.alt} />
                 <div className={indexStyles.info}>
                   <h3 className={indexStyles.title}>
                     {node.frontmatter.title}{" "}

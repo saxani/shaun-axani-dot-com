@@ -1,6 +1,6 @@
 import React from 'react';
-import globalStyles from '../styles/global.module.scss';
-import footerStyles from '../styles/footer.module.scss';
+import * as globalStyles from '../styles/global.module.scss';
+import * as footerStyles from '../styles/footer.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 

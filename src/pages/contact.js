@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import globalStyles from '../styles/global.module.scss';
+import * as globalStyles from '../styles/global.module.scss';
 
 
 const Contact = ({ data }) => (
