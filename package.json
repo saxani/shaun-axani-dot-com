@@ -1,14 +1,13 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "shaun-axani-dot-com",
+  "private": false,
+  "description": "Shaun Axani portfolio page. Built on the Gatsby starter page",
   "version": "2.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Shaun Axani <saxani@gmail.com>",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.13",
-    "@fortawesome/free-brands-svg-icons": "^5.7.0",
-    "@fortawesome/free-solid-svg-icons": "^5.7.0",
-    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "gatsby": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-manifest": "^5.7.0",
@@ -22,19 +21,14 @@
     "gatsby-transformer-remark": "^6.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
     "node-sass": "^8.0.0",
-    "prop-types": "^15.6.2",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-burger-menu": "^2.6.2",
+    "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0",
-    "react-google-maps": "^9.4.5",
-    "react-helmet": "^5.2.0",
-    "react-parallax": "^2.1.0",
-    "three": "^0.100.0",
+    "react-helmet": "^6.1.0",
+    "three": "0.100.0",
     "three-gpu-particle-system": "^1.0.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -47,9 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/saxani/shaun-axani-dot-com"
   }
 }

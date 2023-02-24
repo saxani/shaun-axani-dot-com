@@ -19,8 +19,10 @@ const Experiments = ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark (filter: {fileAbsolutePath: {regex: "\/experiments/"}},
-      sort: { fields: [frontmatter___order]}){
+    allMarkdownRemark (
+      sort: {frontmatter: {order: ASC}}
+      filter: {fileAbsolutePath: {regex: "/experiments/"}}
+    ){
       totalCount
       edges {
         node {
