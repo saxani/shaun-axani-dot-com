@@ -2,11 +2,11 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import Hero from "../components/hero";
-import globalStyles from '../styles/global.module.scss';
+import * as globalStyles from '../styles/global.module.scss';
 import SEO from '../components/seo';
 import Thumbnails from '../components/thumbnails';
 
-export default ({ data }) => {
+const Index = ({ data }) => {
   return (
     <Layout>
       <SEO title="Creative Technologist" />
@@ -20,8 +20,10 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark (sort: { fields: [frontmatter___order]},
-      filter: {fileAbsolutePath: {regex: "\/pages/"}}){
+    allMarkdownRemark (
+      sort: {frontmatter: {order: ASC}}
+      filter: {fileAbsolutePath: {regex: "/pages/"}}
+    ){
       totalCount
       edges {
         node {
@@ -29,11 +31,10 @@ export const query = graphql`
           frontmatter {
             title
             category
+            alt
             image {
               childImageSharp {
-                 fluid(maxWidth: 400) {
-                   ...GatsbyImageSharpFluid
-                 }
+                gatsbyImageData(width: 480)
                }
             }
           }
@@ -46,3 +47,5 @@ export const query = graphql`
     }
   }
 `
+
+export default Index;

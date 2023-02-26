@@ -2,10 +2,10 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from '../components/seo';
-import globalStyles from '../styles/global.module.scss';
+import * as globalStyles from '../styles/global.module.scss';
 import Thumbnails from '../components/thumbnails';
 
-export default ({ data }) => {
+const Experiments = ({ data }) => {
   return (
     <Layout>
       <SEO title="Experiments" />
@@ -19,19 +19,20 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark (filter: {fileAbsolutePath: {regex: "\/experiments/"}},
-      sort: { fields: [frontmatter___order]}){
+    allMarkdownRemark (
+      sort: {frontmatter: {order: ASC}}
+      filter: {fileAbsolutePath: {regex: "/experiments/"}}
+    ){
       totalCount
       edges {
         node {
           id
           frontmatter {
             title
+            alt
             image {
               childImageSharp {
-                 fluid(maxWidth: 400) {
-                   ...GatsbyImageSharpFluid
-                 }
+                 gatsbyImageData(width: 480) 
                }
             }
           }
@@ -44,3 +45,5 @@ export const query = graphql`
     }
   }
 `
+
+export default Experiments;

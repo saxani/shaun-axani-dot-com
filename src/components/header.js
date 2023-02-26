@@ -1,8 +1,8 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import globalStyles from '../styles/global.module.scss';
-import headerStyles from '../styles/header.module.scss';
+import * as globalStyles from '../styles/global.module.scss';
+import * as headerStyles from '../styles/header.module.scss';
 import Burger from './burger';
 
 

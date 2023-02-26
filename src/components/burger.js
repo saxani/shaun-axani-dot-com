@@ -1,6 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
-import headerStyles from '../styles/header.module.scss';
+import * as headerStyles from '../styles/header.module.scss';
 import { stack as Menu } from 'react-burger-menu';
 
 

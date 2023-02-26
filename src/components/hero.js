@@ -1,5 +1,5 @@
 import React from 'react';
-import heroStyles from '../styles/hero.module.scss';
+import * as heroStyles from '../styles/hero.module.scss';
 import TextAnimation from './text-animation';
 
 const Hero = ({ siteTitle }) => (
