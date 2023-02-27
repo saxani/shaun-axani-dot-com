@@ -3,7 +3,7 @@ title: "Bayberry"
 category: "VR/Ambisonic Audio"
 date: "Fall 2017"
 order: 5
-image: "../images/bayberry-thumbnail@2x.jpg"
+image: "../../images/bayberry-thumbnail@2x.jpg"
 alt: "Image of home"
 role: "Post production director, composer"
 tasks: "360 camera stitching, video editing, compositing, special effects, spatial music composition, music recording"

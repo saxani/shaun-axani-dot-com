@@ -3,7 +3,7 @@ title: "The Quinn Experiments"
 category: "Performance/Games"
 date: "April 2016"
 order: 1
-image: "../images/quinn-thumbnail@2x.jpg"
+image: "../../images/quinn-thumbnail@2x.jpg"
 alt: "The lead character Quinn"
 role: "Creator, co-writer, UX and game designer, technologist"
 tasks: "Coding, custom circuit design, fabrication, video/audio production, experiential designer"

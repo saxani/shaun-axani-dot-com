@@ -3,7 +3,7 @@ title: "Animal World"
 category: "Education/Accessible Technology"
 date: "Fall 2015"
 order: 6
-image: "../images/animalworld-thumbnail@2x.jpg"
+image: "../../images/animalworld-thumbnail@2x.jpg"
 alt: "Kids Sensory Wall"
 role: "Creative technologist"
 tasks: "User centered design, circuit design, hardware design, fabrication, coding"
