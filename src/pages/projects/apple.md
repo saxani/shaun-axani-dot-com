@@ -2,7 +2,7 @@
 title: "Apple"
 category: "Web Development"
 date: "Summer 2018"
-order: 3
+order: 4
 image: "../../images/apple-thumbnail@2x.jpg"
 alt: "Apple logo"
 role: "Front end developer"

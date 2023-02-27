@@ -1,11 +1,11 @@
 ---
-title: "Refuge"
-category: "Performance/Games"
-date: "April 2017"
-order: 1
-image: "../../images/refuge_thumbnail@2x.jpg"
-alt: "The lead character Quinn"
-role: "Co-creator, co-writer, UX and game designer, technologist"
+title: "Vereday"
+category: "Web Development"
+date: "2021-2022"
+order: 2
+image: "../../images/vereday-thumbnail@2x.jpg"
+alt: "The landing page for the Vereday homepage"
+role: "Lead full stack developer"
 tasks: "Story development, Lead game development, remote control fabrication, video/audio production, experiential designer, coding"
 technology: "Python, JavaScript, node.js, Raspberry Pi, Arduino, Pro Tools, Premiere, Eagle, Othermill, Laser cutter, LCD Displays, Capacitive Touch Sensors"
 ---
