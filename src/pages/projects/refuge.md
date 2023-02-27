@@ -3,7 +3,7 @@ title: "Refuge"
 category: "Performance/Games"
 date: "April 2017"
 order: 2
-image: "../images/refuge_thumbnail@2x.jpg"
+image: "../../images/refuge_thumbnail@2x.jpg"
 alt: "The lead character Quinn"
 role: "Co-creator, co-writer, UX and game designer, technologist"
 tasks: "Story development, Lead game development, remote control fabrication, video/audio production, experiential designer, coding"

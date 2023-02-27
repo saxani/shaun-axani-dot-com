@@ -2,7 +2,7 @@
 title: "360 Video Experiments"
 date: "Spring 2015"
 order: 4
-image: "../images/skateboard-park.jpg"
+image: "../../images/skateboard-park.jpg"
 alt: "360 video still of skateboard park"
 role: "Creative Technologist"
 tasks: "Video production, camera stitching, video editing, audio editing"

@@ -22,7 +22,7 @@ export const query = graphql`
   query {
     allMarkdownRemark (
       sort: {frontmatter: {order: ASC}}
-      filter: {fileAbsolutePath: {regex: "/pages/"}}
+      filter: {fileAbsolutePath: {regex: "/pages/projects/"}}
     ){
       totalCount
       edges {

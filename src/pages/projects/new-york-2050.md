@@ -3,7 +3,7 @@ title: "New York 2050"
 category: "Interactive Video"
 date: "Spring 2015"
 order: 7
-image: "../images/nyc-thumbnail@2x.jpg"
+image: "../../images/nyc-thumbnail@2x.jpg"
 alt: "still title screen of film"
 role: "Creator, writer, director, editor"
 tasks: "UX design, directing, screenwriting, video production, video editing"
