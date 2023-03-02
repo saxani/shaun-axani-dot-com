@@ -1,8 +1,8 @@
 ---
 title: "New York 2050"
 category: "Interactive Video"
-date: "Spring 2015"
-order: 7
+date: "2015"
+order: 8
 image: "../../images/nyc-thumbnail@2x.jpg"
 alt: "still title screen of film"
 role: "Creator, writer, director, editor"
