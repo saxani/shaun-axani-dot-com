@@ -1,15 +1,10 @@
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gridItem {
+.imgWrapper {
   width: 50%;
-  padding-right: 30px;
+  max-width: 470px;
 }
 
 .gridItemSmall {
-  width: 30%;
+  width: 60%;
   padding-right: 20px;
   padding-left: 20px;
 
@@ -24,7 +19,7 @@
 }
 
 .gridItemSmallest {
-  width: 20%;
+  width: 40%;
   padding-right: 0;
   padding-left: 20px;
 }
@@ -44,4 +39,29 @@
 .subText {
   color: #888;
   display: block;
+}
+
+.skillsWrapper {
+  display: flex;
+
+  @media (max-width: 736px) {
+    display: block;
+  }
+}
+
+.right {
+  float: right;
+  width: 50%;
+  
+  @media (max-width: 736px) {
+    display: none;
+  }
+}
+
+.skillsSmall {
+  display: none;
+
+  @media (max-width: 736px) {
+    display: block;
+  }
 }
