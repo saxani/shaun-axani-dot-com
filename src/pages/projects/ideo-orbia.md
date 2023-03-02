@@ -11,7 +11,7 @@ technology: "MERN (MongoDB, Express, React, Node) + GraphQL, AWS, Heroku, Gatsby
 ---
 
 <p class="post-paragraph">
-  Reknowned design thinking agency <a href="https://ideo.com/" target="_blank">IDEO</a> partnered with <a href="https://www.orbia.com/" target="_blank">Orbia</a>, a purpose-driven global infrastructure company, to create a venture lab that would design new digital products and services that were good for the company and good for the world. I was fortunate to be the first employee hired in the lab, based in the IDEO office in San Francisco. 
+  Reknowned design thinking agency <a href="https://ideo.com/" target="_blank" rel="noreferrer">IDEO</a> partnered with <a href="https://www.orbia.com/" target="_blank" rel="noreferrer">Orbia</a>, a purpose-driven global infrastructure company, to create a venture lab that would design new digital products and services that were good for the company and good for the world. I was fortunate to be the first employee hired in the lab, based in the IDEO office in San Francisco. 
 </p>
 
 ![Team meeting with members from Orbia](../../images/IDEO-team-working.jpg)

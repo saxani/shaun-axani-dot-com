@@ -23,5 +23,5 @@ technology: "MERN (MongoDB, Express, React, Node) + GraphQL, AWS, Heroku, Apollo
 ![Website for Vereday showing different categories for sustainable shopping](../../images/vereday-web@2x.png)
 
 <p class="post-paragraph">
-  The browser extension is accompanied by a full online website. You can check it out at <a href="https://vereday.com" target="_blank">vereday.com</a>
+  The browser extension is accompanied by a full online website. You can check it out at <a href="https://vereday.com" target="_blank" rel="noreferrer">vereday.com</a>
 </p>
