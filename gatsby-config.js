@@ -18,7 +18,7 @@ module.exports = {
               maxWidth: 1000,
             },
           },
-          "gatsby-remark-copy-linked-files",
+          'gatsby-remark-copy-linked-files',
         ],
       },
     },
@@ -27,29 +27,36 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      }
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `videos`,
+        path: `${__dirname}/src/videos`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
         path: `${__dirname}/src/pages`,
-      }
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Shaun Axani Portfolio",
-        short_name: "Shaun Axani",
-        start_url: "/",
-        background_color: "#c471ed",
-        theme_color: "#c471ed",
-        display: "standalone",
-        icon: "src/images/sa.png", // This path is relative to the root of the site.
+        name: 'Shaun Axani Portfolio',
+        short_name: 'Shaun Axani',
+        start_url: '/',
+        background_color: '#c471ed',
+        theme_color: '#c471ed',
+        display: 'standalone',
+        icon: 'src/images/sa.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }

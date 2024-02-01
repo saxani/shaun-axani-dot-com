@@ -1,12 +1,12 @@
 ---
-title: "Mushroom Magnets"
-date: "Fall 2015"
-order: 3
-image: "../../images/mushroom-mags.jpg"
-alt: "Magnets made of mushrooms"
-role: "Creative Technologist"
-tasks: "Design magnets, 3D rendering, laser cutting"
-technology: "Adobe Illustrator, Vectorworks"
+title: 'Mushroom Magnets'
+date: 'Fall 2015'
+order: 4
+image: '../../images/mushroom-mags.jpg'
+alt: 'Magnets made of mushrooms'
+role: 'Creative Technologist'
+tasks: 'Design magnets, 3D rendering, laser cutting'
+technology: 'Adobe Illustrator, Vectorworks'
 ---
 
 <p class="post-paragraph">

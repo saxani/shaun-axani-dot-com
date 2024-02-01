@@ -1,12 +1,12 @@
 ---
-title: "360 Video Experiments"
-date: "Spring 2015"
-order: 4
-image: "../../images/skateboard-park.jpg"
-alt: "360 video still of skateboard park"
-role: "Creative Technologist"
-tasks: "Video production, camera stitching, video editing, audio editing"
-technology: "GoPro 360 rig, Ricoh Theta S, ambisonic audio, Autopano, Premiere"
+title: '360 Video Experiments'
+date: 'Spring 2015'
+order: 5
+image: '../../images/skateboard-park.jpg'
+alt: '360 video still of skateboard park'
+role: 'Creative Technologist'
+tasks: 'Video production, camera stitching, video editing, audio editing'
+technology: 'GoPro 360 rig, Ricoh Theta S, ambisonic audio, Autopano, Premiere'
 ---
 
 At grad school in 2015, we spent the semester experimenting with what was a very new technology at the time – live action 360 video. We used Ricoh Theta’s and six-camera GoPro rigs, stitched with Autopano software, and used Premiere for video and audio post production. Working with fantastic group members, I produced three works that give some examples of what can be achieved with live action VR.
