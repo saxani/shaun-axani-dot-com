@@ -40,6 +40,10 @@ const Skills = () => (
         Television)<span class={aboutStyles.subText}>2003 - 2007</span>
       </p>
       <p>
+        Webflow Certifications - Webflow 101
+        <span class={aboutStyles.subText}>2024</span>
+      </p>
+      <p>
         Microsoft Certifications - Azure Fundamentals{' '}
         <span class={aboutStyles.subText}>2020</span>
       </p>
@@ -49,7 +53,7 @@ const Skills = () => (
     >
       <p>PROGRAMMING</p>
       <p>
-        HTML/CSS/JavaScript <br />
+        HTML/CSS/JavaScript/TypeScript <br />
         MERN + GraphQL stack (MongoDB, Express, React, Node) Python <br />
         Processing (Java)
         <br />
