@@ -2,7 +2,7 @@
 title: "Animal World"
 category: "Education/Accessible Technology"
 date: "2015"
-order: 7
+order: 8
 image: "../../images/animalworld-thumbnail@2x.jpg"
 alt: "Kids Sensory Wall"
 role: "Creative technologist"

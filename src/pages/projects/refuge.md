@@ -2,7 +2,7 @@
 title: "Refuge"
 category: "Performance/Games"
 date: "2016-2017"
-order: 1
+order: 2
 image: "../../images/refuge_thumbnail@2x.jpg"
 alt: "The lead character Quinn"
 role: "Co-creator, co-writer, UX and game designer, technologist"

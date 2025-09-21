@@ -2,7 +2,7 @@
 title: "Vereday"
 category: "Web Development"
 date: "2021-2022"
-order: 2
+order: 3
 image: "../../images/vereday-thumbnail@2x.jpg"
 alt: "The landing page for the Vereday homepage"
 role: "Lead full stack developer"

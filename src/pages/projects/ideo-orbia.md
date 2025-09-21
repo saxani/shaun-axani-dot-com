@@ -2,7 +2,7 @@
 title: "IDEO/Orbia Lab"
 category: "Prototyping/Web Development"
 date: "2019-2022"
-order: 3
+order: 4
 image: "../../images/ideo-orbia-thumbnail@2x.jpg"
 alt: "The logos of IDEO and Orbia"
 role: "Creative Technologist"

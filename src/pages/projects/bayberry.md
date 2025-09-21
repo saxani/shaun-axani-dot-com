@@ -2,7 +2,7 @@
 title: "Bayberry"
 category: "VR/Ambisonic Audio"
 date: "2017"
-order: 6
+order: 7
 image: "../../images/bayberry-thumbnail@2x.jpg"
 alt: "Image of home"
 role: "Post production director, composer"

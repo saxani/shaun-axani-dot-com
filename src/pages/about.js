@@ -31,8 +31,8 @@ const About = ({ data }) => (
           I did my undergrad in media production in Toronto, Canada, and I
           sought to become an expert with both audio and video technology. After
           graduating, I produced everything from corporate videos to live music
-          content and was also a failed rock star, briefly touring Canada in a
-          marginally successful band.
+          content and was also a failed rock star, briefly touring Canada in 
+          marginally successful bands.
         </p>
         <p>
           I left my homeland for{' '}
@@ -46,7 +46,7 @@ const About = ({ data }) => (
           demystified technology for me, and I’ve been keen to harness its
           potential in new and exciting ways ever since. Whether it’s code,
           hardware design, sensors, virtual reality, 3D printing, fabrication,
-          machine learning, big data or more, I no longer feel intimidated by a
+          AI, big data or more, I no longer feel intimidated by a
           new challenge.
         </p>
         <p>
@@ -102,7 +102,7 @@ const About = ({ data }) => (
           After 15-years of being focused on my career, I pursued a lifelong
           dream of renovating a{' '}
           <a
-            href="https://www.essonlakecottage.com/"
+            href="https://essonlakecottage.webflow.io/"
             target="_blank"
             rel="noreferrer"
           >
@@ -111,8 +111,10 @@ const About = ({ data }) => (
           I’m proud of the finished product and seeing through a massive project
           from start to end, almost entirely on my own. Unplugging from
           technology was a great reset, but it also made me appreciate working
-          in software in collaborative, iterative settings. I’m keen to start
-          building products again...of the digital variety.
+          in software in collaborative, iterative settings.
+        </p>
+        <p>
+          I relocated to Seattle for my present day role, as a Design Technologist for the Device Design Team at Amazon. With a fantastic team, I conceptualize, develop, and prototype future products, gaining stakeholder buy in from VP and SVPs each step of the way as we share a vision of what our next generation products and Alexa+ could look and feel like.
         </p>
         <p>
           Throughout my journey, I’ve tried to teach whenever possible, as I
